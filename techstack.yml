@@ -1,0 +1,164 @@
+repo_name: 2lambda123/VMDIRAC
+report_id: 736c49c57f176ecac98f19039945ba08
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:59:33+00:00'
+requested_by: sfayer
+provider: github
+branch: integration
+detected_tools_count: 13
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/VMDIRAC
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/environment.yml
+  detection_source: environment.yml
+  last_updated_by: fstagni
+  last_updated_on: 2020-11-17 14:35:32.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/VMDIRAC/WorkloadManagementSystem/DB/VirtualMachineDB.sql
+  detection_source: VMDIRAC/WorkloadManagementSystem/DB/VirtualMachineDB.sql
+  last_updated_by: Andrei Tsaregorodtsev
+  last_updated_on: 2016-05-06 14:34:50.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/.github/workflows/basic-python3.yml
+  detection_source: ".github/workflows/basic-python3.yml"
+  last_updated_by: Simon Fayer
+  last_updated_on: 2021-02-11 14:26:39.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Rafal Grzymkowski
+  last_updated_on: 2017-06-05 13:32:56.000000000 Z
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/environment.yml
+  detection_source: environment.yml
+  last_updated_by: fstagni
+  last_updated_on: 2020-11-17 14:35:32.000000000 Z
+- name: pip
+  description: A package installer for Python
+  website_url: https://pypi.org/project/pip/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5559/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/environment.yml
+  detection_source: environment.yml
+  last_updated_by: fstagni
+  last_updated_on: 2020-11-17 14:35:32.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: '3.6'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/environment.yml
+  detection_source: environment.yml
+  last_updated_by: fstagni
+  last_updated_on: 2020-11-17 14:35:32.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC
+  detection_source: Repo Metadata
+- name: apache-libcloud
+  description: A standard Python library that abstracts away differences among multiple
+    cloud provider APIs
+  package_url: https://pypi.org/project/apache-libcloud
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20265/default_2f26e5bf51865c5f7c033b98815e6cc4068db7a7.png
+  detection_source_url: https://github.com/2lambda123/VMDIRAC/blob/integration/docs/requirements.txt
+  detection_source: docs/requirements.txt
+  last_updated_by: Andre Sailer
+  last_updated_on: 2020-03-19 09:20:53.000000000 Z
